@@ -92,18 +92,29 @@ h5{
     margin-top: 100px;
 }
 
+#square-1{
+    margin-right: 60px;
+    margin-left: 20px;
+}
 
+#square-2{
+    margin-right: 20px;
+}
 #square-1, #square-2{
     background-color: orange;
+    display: flex;
     height: 250px;
-    width: 800px
+    width: 800px;
+    justify-content: space-around;
 }
 
 .bottom{
     display: flex;
     margin-top: 50px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-right: 25px;
+    
 
 }
 
@@ -121,7 +132,7 @@ footer{
 }
 
 footer > div {
-    background-color: purple;
+    background-color: rgb(32, 32, 110) ;
     width: 100%; 
     height: 70px;
     margin-top: 50px;
